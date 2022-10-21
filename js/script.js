@@ -15,6 +15,6 @@ function calculate() {
   const area = 3.14159 * (radius_a * radius_b)
 
   // output
-  document.getElementById("area").innerHTML = 'Ellipse area is ' + area.toFixed(2) + "u²"
+  document.getElementById("area").innerHTML =
+    "Ellipse area is " + area.toFixed(2) + "u²"
 }
-

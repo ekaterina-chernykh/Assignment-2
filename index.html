@@ -32,42 +32,43 @@
         </div>
       </header>
       <main class="mdl-layout__content">
-        <h4>Formula: Area= π × (a × b) </h4>
+        <h4>Formula: Area= π × (a × b)</h4>
         <img
           src="./images/ELLIPSE image.png"
           alt="ELLIPSE image.png"
           id="right-image"
         />
-          <form action="#">
-            <p>Length of the semi-major axis 'a'</p>
-            <div class="mdl-textfield mdl-js-textfield">
-              <input
-                class="mdl-textfield__input"
-                type="text"
-                pattern="-?[0-9]*(\.[0-9]+)?"
-                id="radius-a"
-              />
-              <label class="mdl-textfield__label" for="radius-a">a ...</label>
-              <span class="mdl-textfield__error">Input is not a number!</span>
-            </div>
-            </form>
-            <form action="#">
-                <p>Length of the semi-major axis 'b'</p>
-                <div class="mdl-textfield mdl-js-textfield">
-                  <input
-                    class="mdl-textfield__input"
-                    type="text"
-                    pattern="-?[0-9]*(\.[0-9]+)?"
-                    id="radius-b"
-                  />
-                  <label class="mdl-textfield__label" for="radius-b">b ...</label>
-                  <span class="mdl-textfield__error">Input is not a number!</span>
-                </div>
-              </form>
+        <form action="#">
+          <p>Length of the semi-major axis 'a'</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="radius-a"
+            />
+            <label class="mdl-textfield__label" for="radius-a">a ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
+        <form action="#">
+          <p>Length of the semi-major axis 'b'</p>
+          <div class="mdl-textfield mdl-js-textfield">
+            <input
+              class="mdl-textfield__input"
+              type="text"
+              pattern="-?[0-9]*(\.[0-9]+)?"
+              id="radius-b"
+            />
+            <label class="mdl-textfield__label" for="radius-b">b ...</label>
+            <span class="mdl-textfield__error">Input is not a number!</span>
+          </div>
+        </form>
         <!-- Colored raised button -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored"
-          onclick="calculate()">
+          onclick="calculate()"
+        >
           CALCULATE
         </button>
         <br />
@@ -75,4 +76,4 @@
       </main>
     </div>
   </body>
-</html>  
+</html>
