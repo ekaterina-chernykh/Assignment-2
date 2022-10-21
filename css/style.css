@@ -27,10 +27,17 @@ body {
 
 #right-image {
   position: absolute;
-  right: 0%;
+  right: 50%;
 }
 
 p {
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 5pt;
+}
+
+h4 {
   color: #fff;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1.5rem;
