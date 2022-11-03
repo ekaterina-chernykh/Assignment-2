@@ -16,5 +16,5 @@ function calculate() {
 
   // output
   document.getElementById("area").innerHTML =
-    "Ellipse area is " + area.toFixed(2) + "u²"
+    "Ellipse area is " + area.toFixed(2) + " u²"
 }
